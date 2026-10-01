@@ -35,12 +35,12 @@ Double-cliquez sur `index.html` : le site s’ouvre dans votre navigateur. Rien 
 
 ## Remplacer les photos
 
-Les images fournies sont des **emplacements temporaires** (on y lit « Remplacez ce fichier par votre photo »). Pour mettre vos photos, il suffit de **remplacer chaque fichier par une photo portant exactement le même nom** : aucun code à modifier.
+Les images actuelles (portrait du CV et images d’ambiance du portfolio PDF) peuvent être changées à tout moment. Pour mettre d’autres photos, il suffit de **remplacer chaque fichier par une photo portant exactement le même nom** : aucun code à modifier.
 
 | Emplacement sur le site | Fichier à remplacer | Format conseillé |
 |---|---|---|
 | Accueil (photo en arche) | `images/accueil.jpg` | vertical, ~1200 × 1500 px |
-| À propos (votre portrait) | `images/portrait.jpg` | vertical, ~1200 × 1500 px |
+| À propos (votre portrait) | `images/portrait.jpg` | carré, ~800 × 800 px (affiché en rond) |
 | Portfolio, grande photo haute | `images/portfolio/photo-1.jpg` | vertical, ~1200 × 1500 px |
 | Portfolio, photos 2 à 6 | `images/portfolio/photo-2.jpg` … `photo-6.jpg` | horizontal, ~1600 px de large |
 
