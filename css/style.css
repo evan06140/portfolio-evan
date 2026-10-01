@@ -537,18 +537,36 @@ strong { font-weight: 500; }
   margin: 0;
 }
 
-.frame::before {
+.frame {
+  max-width: 420px;
+  margin-inline: auto;
+}
+
+/* Portrait rond entouré d'un double cercle doré */
+.frame::before,
+.frame::after {
   content: "";
   position: absolute;
-  inset: -1.25rem 1.25rem 1.25rem -1.25rem;
   z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.frame::before {
+  inset: -1.1rem;
   border: 1px solid var(--gold);
+}
+
+.frame::after {
+  inset: -2.1rem;
+  border: 1px solid var(--gold-light);
 }
 
 .frame img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1;
   object-fit: cover;
+  border-radius: 50%;
   background: var(--cream-deep);
   box-shadow: var(--shadow);
 }
@@ -715,6 +733,15 @@ strong { font-weight: 500; }
     opacity: 1;
     transform: none;
   }
+}
+
+.gallery__note {
+  margin: 1rem 0 0;
+  font-size: .72rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--ink-soft);
 }
 
 .gallery__more {
