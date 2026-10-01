@@ -958,6 +958,23 @@ strong { font-weight: 500; }
   color: var(--ink-soft);
 }
 
+.contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contact__meta a {
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
+}
+
+.contact__meta a:hover { color: var(--gold-deep); }
+
+.contact__meta + .contact__meta { margin-top: .6rem; }
+
 .contact__meta svg {
   flex: none;
   width: 1.1rem;
@@ -1270,6 +1287,8 @@ strong { font-weight: 500; }
   .insta__text strong { font-size: 1.3rem; }
 
   .insta__arrow { display: none; }
+
+  .contact__actions .btn { flex: 1 1 100%; }
 
   .contact__meta {
     flex-wrap: wrap;
