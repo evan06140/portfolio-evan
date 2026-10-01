@@ -66,7 +66,7 @@ Les photos sont recadrées automatiquement pour remplir leur cadre : gardez le s
 
 Tout le contenu se trouve dans `index.html`. Chaque section est signalée par un repère en commentaire (`ACCUEIL`, `À PROPOS`, `PORTFOLIO`, `COMPÉTENCES`, `CONTACT`). Sur GitHub, ouvrez le fichier, cliquez sur l’icône **crayon** (Edit), faites vos modifications puis **Commit changes**.
 
-- **Instagram** : le lien `https://www.instagram.com/evan.arbajian.events/` apparaît deux fois (portfolio et contact).
+- **Instagram** : le lien `https://www.instagram.com/evan.arbajian.events/` se trouve dans la section Contact.
 - **Ajouter une adresse e-mail** : dans la section Contact, une ligne prête à l’emploi est en commentaire. Retirez `<!--` et `-->` autour de cette ligne et remplacez `votre.adresse@email.fr` (2 fois).
 
 ## Changer les couleurs
